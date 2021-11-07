@@ -1,0 +1,116 @@
+body {
+	background-image: url('bluewall.jpg');
+}
+
+.imgbox {
+	float: left;
+	width: 33.33%;
+	height: 531px;
+	border-radius: 18px;
+	border: 8px solid;
+	flex: auto;
+	border-color: darkblue;
+}
+
+#greet {
+	height: 180px;
+	width: 360px;
+	background-color: darkgreen;
+	font-size: 1.5rem;
+	color: aliceblue;
+	flex-direction: row;
+	border-radius: 25px;
+	border: 2px solid;
+	padding-left: 12px;
+	padding-top: 5px;
+	margin-left: 12px;
+	margin-top: 19px;
+	margin-bottom: 5px;
+	flex: 0 0 33.33;
+	float: left;
+    position: absolute;
+}
+
+#workbox {
+	width: 180px;
+	height: 120px;
+	background-color: chartreuse;
+	text-align: center;
+}
+
+#pics,
+#size {
+	max-width: 400px;
+	position: relative;
+    margin-top: -500px;
+    border: 2px solid;
+	margin: 50%;
+	flex: 0 0 33.3%
+	text-align: center;
+    
+}
+
+#work {
+	color: aliceblue;
+	font-size: 3.5rem;
+	margin: 20%;
+	margin-left: 12px;
+	text-align: center;
+}
+
+#greet1-greet {
+	height: 180px;
+	width: 360px;
+	background-color: rgb(0, 0, 0);
+	flex-direction: row;
+	border-radius: 25px;
+	border: 2px solid;
+	position: relative;
+	opacity: 0.2;
+    margin-top: 20px;
+}
+
+#me {
+	border-image: round;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#heading {
+    position: relative
+	width: auto;
+	height: 230px;
+	background-color: rgb(0, 0, 58);
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 8px;
+	opacity: 0.9;
+	border: 5px;
+	border-color: aliceblue;
+}
+
+#topbox {
+	width: 200px;
+	height: 50px;
+	background-color: aliceblue;
+	color: rgb(3, 197, 35);
+	font-size: 2.8rem;
+	border-radius: 12px;
+	padding: 8px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.links {
+	color: green;
+	font-size: 1.5rem;
+	font-variant-caps: all-petite-caps;
+	float: left;
+	margin: 8px;
+	text-align: right;
+	margin-top: 121px;
+}
+
+a {
+	color: inherit;
+}

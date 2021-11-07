@@ -1,0 +1,110 @@
+body {
+	background-image: url('bluewall.jpg');
+	background-color: rgb(12, 1, 1);
+	background-size: 500px 700px;
+}
+
+div {
+	flex: 0 0 50%;
+	margin: 11px;
+	position: relative;
+}
+
+#topbar {
+	background-image: url('redwood.jpg');
+	background-color: #d4af37;
+	opacity: 77%;
+	border-radius: 11px;
+	height: 42px;
+}
+
+#title,
+#words {
+	opacity: 100%;
+	text-align: center;
+	font-family: 'Allura', cursive;
+	font-weight: bolder;
+	font-size: 300%;
+	color: rgb(78, 2, 2);
+	margin: 5%;
+}
+
+#rell {
+	height: 17%;
+	width: 35%;
+	border-radius: 50%;
+	flex: 0 0 50%;
+	text-align: center;
+	margin-left: 33%;
+	margin-right: 50%;
+	margin-top: 8px;
+}
+
+@media screen and (max-width: 500px) {
+	.center,
+	#asu,
+	#rouge {
+		display: flexbox;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 35px;
+		position: relative;
+		flex: 0 0 50%;
+	}
+}
+
+a {
+	color: rgb(255, 255, 215);
+}
+
+#where {
+	height: 150px;
+	width: 450px;
+	background-color: #6895c0;
+	border-radius: 12px;
+	padding-left: 7px;
+	float: left;
+	margin-top: 43px;
+	flex: 0 0 50%;
+}
+u.dotted {
+	border-bottom: 3px double rgb(78, 2, 2);
+	text-decoration: none;
+}
+
+h2 {
+	font-style: italic;
+	padding: 7px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+}
+
+#education {
+	height: 150px;
+	width: 450px;
+	background-color: #6895c0;
+	border-radius: 12px;
+	padding-left: 7px;
+	float: left;
+	margin-right: 0;
+	margin-top: 43px;
+}
+
+#asu {
+	height: 170px;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+#rouge {
+	border-radius: 50%;
+	height: 170px;
+	float: left;
+	position: relative;
+	margin-right: 50px;
+}
