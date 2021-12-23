@@ -83,3 +83,16 @@ body {
 	background-color: rgba(255, 0, 0, 0.39);
 	color: red;
 }
+
+.getInTouch {
+	height: 43px;
+	width: 46px;
+	margin: 8px;
+	float: left;
+	border-radius: 50%;
+	background-color: rgba(219, 14, 14, 0.87);
+}
+
+.getInTouch:hover {
+	background-color: blue;
+}
