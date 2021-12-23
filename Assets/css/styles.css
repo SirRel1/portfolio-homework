@@ -96,3 +96,12 @@ body {
 .getInTouch:hover {
 	background-color: blue;
 }
+
+@media screen and (max-width: 422px) {
+	h1,
+	h5,
+	p {
+		font-size: 0.5rem;
+		margin-top: -5%;
+	}
+}
