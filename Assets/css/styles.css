@@ -135,6 +135,7 @@ body {
 
 	.nav-link {
 		font-family: 'Sirin Stencil', cursive;
-		color: rgb(1, 8, 17) !important;
+		color: rgb(2, 92, 25) !important;
+		font-weight: bolder;
 	}
 }
