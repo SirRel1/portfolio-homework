@@ -98,34 +98,43 @@ body {
 }
 
 .line {
-	color: rgb(24, 2, 2) 227);
+	color: rgb(24, 2, 2 227);
 }
 
-@media screen and (max-width: 400px) {
-	.myName,
-	.hello,
-	.title {
-		font-size: 0.5rem;
-		margin-top: -5%;
-	}
-}
-
-@media screen and (max-width: 391px) {
-	.myName,
-	
-	.title {
-		color: rgb(255, 0, 0);
+@media only screen and (max-width: 404px) {
+	.myName {
+		color: rgb(235, 5, 5) !important;
 		font-size: 30px !important;
 		height: 20px;
 		margin-top: -3%;
 	}
-	.hello{
-		margin-top: -5%;
-		font-size: 8em;
+
+	.nav-link:hover {
+		font-size: 1rem;
+		border-radius: 15px;
+		background-color: rgba(199, 209, 219, 0.692);
 	}
 
-	.navbar{
-		height: 16%;
-		padding: 3px;
+	.title {
+		color: aliceblue;
+	}
+	.hello {
+		margin-top: -5%;
+		font-size: 3em;
+	}
+
+	.navbar {
+		height: 65px;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 600;
+		letter-spacing: 0.2rem;
+		background-color: rgba(236, 28, 56, 0.788) !important;
+		padding: 20px 0px;
+	}
+
+	.nav-link {
+		font-family: 'Sirin Stencil', cursive;
+		color: rgb(1, 8, 17) !important;
 	}
 }
