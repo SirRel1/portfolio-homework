@@ -1,7 +1,7 @@
 This is my Portfolio site. It has recently been updated to reflect my latest GitHub projects and contact info!
 
 
-Deployed site:
+Deployed site: https://sirrel1.github.io/portfolio-homework/
 
 
 
