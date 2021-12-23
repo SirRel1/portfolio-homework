@@ -97,6 +97,10 @@ body {
 	background-color: blue;
 }
 
+.line {
+	color: rgb(24, 2, 2) 227);
+}
+
 @media screen and (max-width: 400px) {
 	.myName,
 	.hello,
