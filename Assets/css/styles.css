@@ -112,11 +112,20 @@ body {
 
 @media screen and (max-width: 391px) {
 	.myName,
-	.hello,
+	
 	.title {
 		color: rgb(255, 0, 0);
-		font-size: 28px !important;
+		font-size: 30px !important;
 		height: 20px;
-		margin-top: 3%;
+		margin-top: -3%;
+	}
+	.hello{
+		margin-top: -5%;
+		font-size: 8em;
+	}
+
+	.navbar{
+		height: 16%;
+		padding: 3px;
 	}
 }
