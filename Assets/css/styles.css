@@ -1,110 +1,85 @@
+.nav-link {
+	font-family: 'Sirin Stencil', cursive;
+	color: rgb(1, 8, 17) !important;
+}
+
 body {
-	background-image: url('bluewall.jpg');
-	background-color: rgb(12, 1, 1);
-	background-size: 500px 700px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: 'Sirin Stencil', cursive;
 }
 
-div {
-	flex: 0 0 50%;
-	margin: 11px;
-	position: relative;
+.navbar {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	background-color: rgba(236, 28, 56, 0.788) !important;
+	padding: 20px 0px;
 }
 
-#topbar {
-	background-image: url('redwood.jpg');
-	background-color: #d4af37;
-	opacity: 77%;
-	border-radius: 11px;
-	height: 42px;
+.nav-link:hover {
+	font-size: 1rem;
+	border-radius: 15px;
+	background-color: rgba(199, 209, 219, 0.692);
 }
 
-#title,
-#words {
-	opacity: 100%;
+.smoke {
+	height: 100% !important;
+	background-repeat: repeat-x;
+}
+
+.Rel {
+	/* margin-top: -60%; */
+	/* margin-left: 25%; */
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	font-family: 'Allura', cursive;
-	font-weight: bolder;
-	font-size: 300%;
-	color: rgb(78, 2, 2);
-	margin: 5%;
-}
+	height: 200px;
+	transform: translate(90%, -50%);
 
-#rell {
-	height: 17%;
-	width: 35%;
 	border-radius: 50%;
-	flex: 0 0 50%;
-	text-align: center;
-	margin-left: 33%;
-	margin-right: 50%;
-	margin-top: 8px;
 }
 
-@media screen and (max-width: 500px) {
-	.center,
-	#asu,
-	#rouge {
-		display: flexbox;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 35px;
-		position: relative;
-		flex: 0 0 50%;
-	}
+.heading-content {
+	position: absolute;
+	top: 22%;
+	width: 100%;
+	max-width: 100%;
+	color: rgb(255, 0, 0);
 }
 
-a {
-	color: rgb(255, 255, 215);
+.heading-content h5 {
+	font-size: 3em;
+	color: aliceblue;
 }
 
-#where {
-	height: 150px;
-	width: 450px;
-	background-color: #6895c0;
+.heading-content h1 {
+	font-size: 4em;
+}
+
+.heading-content p {
+	font-weight: lighter;
+	word-spacing: 5px;
+	color: azure;
+	font-size: 2em;
+	margin: auto;
+}
+
+.background {
+	z-index: -1;
+}
+
+.btn {
+	color: black;
+	background-color: red;
 	border-radius: 12px;
-	padding-left: 7px;
-	float: left;
-	margin-top: 43px;
-	flex: 0 0 50%;
-}
-u.dotted {
-	border-bottom: 3px double rgb(78, 2, 2);
-	text-decoration: none;
 }
 
-h2 {
-	font-style: italic;
-	padding: 7px;
-	font-weight: bold;
-}
-
-p {
-	font-size: 20px;
-}
-
-#education {
-	height: 150px;
-	width: 450px;
-	background-color: #6895c0;
-	border-radius: 12px;
-	padding-left: 7px;
-	float: left;
-	margin-right: 0;
-	margin-top: 43px;
-}
-
-#asu {
-	height: 170px;
-	float: left;
-	position: relative;
-	margin-right: 10px;
-	margin-left: 5px;
-}
-
-#rouge {
-	border-radius: 50%;
-	height: 170px;
-	float: left;
-	position: relative;
-	margin-right: 50px;
+.btn:hover {
+	border-color: rgb(10, 1, 1);
+	background-color: rgba(255, 0, 0, 0.39);
+	color: red;
 }
